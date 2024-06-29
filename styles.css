@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+body 
+{
+    background-color: #B9BDBA;
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: rgba(red, green, blue, 0.2);
+    border: 10px solid white;
+    padding: 5px;
+}
+
+#roman-numeral-converter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#roman-numeral-converter > *
+{
+    margin: 3px;
+    width: 100%;
+}
+
+label 
+{
+    text-align: center;
+}
+
+input, button
+{
+    height: 50px;
+}
+
+.hide
+{
+    display: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button
+{
+  height: 100%;
+  margin: 0;
+}
+
+input
+{
+    text-align: center;
+}
+
+.highlight
+{
+    box-shadow: 0 0 5px white;
+}
+
+.output
+{
+    text-align: center;
+}
